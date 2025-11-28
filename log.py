@@ -24,8 +24,8 @@ def coletar_linux(host):
 
         ssh.connect(
             hostname=host,
-            username="jonas",
-            password="Coroinha.1",
+            username="scv_account",
+            password="senha1",
             timeout=5
         )
         # Primeiro, descobrir qual arquivo de log existe
@@ -73,7 +73,7 @@ def coletar_windows(host):
     try:
         sess = winrm.Session(
             target=host, 
-            auth=("jonas", "Coroinha.1")
+            auth=("scv_account", "senha1")
         )
 
         comando = (
