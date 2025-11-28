@@ -1,0 +1,34 @@
+[LINUX] 192.168.145.11
+Nov 27 14:46:38 CentOS sshd-session[1978]: Failed password for invalid user usuario from 192.168.145.9 port 33806 ssh2
+Nov 27 14:51:49 CentOS sshd-session[2053]: Failed password for jonas from 192.168.145.1 port 50464 ssh2
+Nov 27 14:51:53 CentOS sshd-session[2053]: Failed password for jonas from 192.168.145.1 port 50464 ssh2
+Nov 27 14:51:57 CentOS sshd-session[2053]: Failed password for jonas from 192.168.145.1 port 50464 ssh2
+Nov 27 20:06:44 CentOS sshd-session[2437]: Failed password for invalid user teste from 192.168.145.1 port 51493 ssh2
+Nov 27 20:06:48 CentOS sshd-session[2437]: Failed password for invalid user teste from 192.168.145.1 port 51493 ssh2
+Nov 27 20:06:54 CentOS sshd-session[2437]: Failed password for invalid user teste from 192.168.145.1 port 51493 ssh2
+Nov 27 20:12:07 CentOS sudo[2475]:    root : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/bin/grep 'Failed password' /var/log/secure
+Nov 27 20:16:47 CentOS sudo[2519]:    root : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/bin/grep 'Failed password' /var/log/secure
+Nov 27 21:21:12 CentOS sshd-session[2771]: Failed password for root from 192.168.145.9 port 47264 ssh2
+
+
+[LINUX] 192.168.145.12
+2025-11-27T17:46:37.955090+00:00 jonas sshd[1302]: Failed password for invalid user usuario from 192.168.145.9 port 46950 ssh2
+2025-11-27T17:52:07.037367+00:00 jonas sshd[1475]: Failed password for jonas from 192.168.145.1 port 50476 ssh2
+2025-11-27T17:52:11.626023+00:00 jonas sshd[1475]: Failed password for jonas from 192.168.145.1 port 50476 ssh2
+2025-11-27T17:52:16.239360+00:00 jonas sshd[1475]: Failed password for jonas from 192.168.145.1 port 50476 ssh2
+2025-11-28T00:21:12.302986+00:00 jonas sshd[1953]: Failed password for root from 192.168.145.9 port 46442 ssh2
+2025-11-28T00:29:37.700663+00:00 jonas sudo:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/secure
+
+
+[LINUX] 192.168.145.13
+Nov 27 14:46:43 CentOS sshd-session[1980]: Failed password for invalid user usuario from 192.168.145.9 port 51814 ssh2
+Nov 27 21:21:20 CentOS sshd-session[2528]: Failed password for root from 192.168.145.9 port 41210 ssh2
+
+
+[WINDOWS] 192.168.145.10
+TimeCreated                      Id LevelDisplayName Message
+-----------                      -- ---------------- -------
+27/11/2025 22:04:19            4625 Informações      Falha no logon de uma conta....
+27/11/2025 22:04:17            4625 Informações      Falha no logon de uma conta....
+27/11/2025 22:04:06            4625 Informações      Falha no logon de uma conta....
+27/11/2025 22:03:59            4625 Informações      Falha no logon de uma conta....
