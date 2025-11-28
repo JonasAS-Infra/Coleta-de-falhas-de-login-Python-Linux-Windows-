@@ -9,7 +9,7 @@ import os
 # Função para carregar lista de hosts
 # ---------------------------------------
 def carregar_hosts(caminho_arquivo):
-    with open(caminho_arquivo, "r") as f:
+    with open(caminho_arquivo, "r") as  f:
         linhas = f.readlines()
         return [linha.strip() for linha in linhas if linha.strip()]
 
